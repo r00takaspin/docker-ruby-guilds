@@ -4,4 +4,8 @@
 docker build -t ruby-guilds .
 docker run -v $(pwd)/examples:/examples -it ruby-guilds ruby --version
 ```
+## Run
+```bash
+docker run -v $(pwd)/examples:/examples -it ruby-guilds ruby /examples/md5.rb
+```
 
